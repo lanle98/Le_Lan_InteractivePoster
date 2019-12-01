@@ -5,7 +5,7 @@ var sql = require("../utils/sql");
 /* GET home page. */
 router.get("/", function(req, res, next) {
   console.log("at main route");
-  res.render("index", { title: "Express" });
+  res.render("index");
 });
 
 module.exports = router;

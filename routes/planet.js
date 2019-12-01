@@ -23,7 +23,6 @@ router.get("/planet/:id", function(req, res) {
 
     console.log(result);
     res.json(result[0]);
-    res.render("lightbox");
   });
 });
 

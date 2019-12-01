@@ -8,7 +8,6 @@
   let temperature = document.querySelector(".temperature");
   let modal = document.querySelector(".modal");
   let modalContent = document.querySelector(".modal-content");
-  console.log(modalContent);
 
   //get data from mysql
   function getData(e) {
