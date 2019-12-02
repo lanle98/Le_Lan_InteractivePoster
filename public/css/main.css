@@ -1,1 +1,1 @@
-body{background:#282828 !important}h1,h2,p,li{color:#fff}.show{display:block !important}.modal{background:rgba(0,0,0,.5)}.error h1,.error h2{color:#fff}/*# sourceMappingURL=main.css.map */
+body{background:#282828 !important}.hidden{display:none}h1,h2,p,li{color:#fff}.show{display:block !important}.fade-bg{position:absolute;width:100vw;height:100vh;background:rgba(0,0,0,.5);opacity:1}.error h1,.error h2{color:#fff}/*# sourceMappingURL=main.css.map */

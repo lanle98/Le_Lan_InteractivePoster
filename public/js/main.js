@@ -7,6 +7,7 @@
   let area = document.querySelector(".area");
   let temperature = document.querySelector(".temperature");
   let modal = document.querySelector(".modal");
+  let fadeBg = document.querySelector(".fade-bg");
   let modalContent = document.querySelector(".modal-content");
 
   //get data from mysql
@@ -84,5 +85,5 @@
     });
   });
 
-  modal.addEventListener("click", closeLightBox);
+  fadeBg.addEventListener("click", closeLightBox);
 })();
